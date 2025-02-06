@@ -139,9 +139,44 @@ main .hero-container .hero-content .text-content{
     align-items: center;
     padding: 0px 120px;
 }
-/* main .hero-container .hero-content .text-content .text-content-wrapper {
-    background-color: rgb(215, 215, 215);
-} */
+main .hero-container .hero-content .image-content .image-content-wrapper{
+    position: relative;
+    padding: 44px 0px 44px 44px;
+}
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box{
+    position: absolute;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1){
+    background-color: red;
+    width: 300px;
+    height: 160px;
+    border-radius: 10px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(2){
+    background-color: blue;
+    top: 215px;
+    height: 340px;
+    width: 250px;
+    border-radius: 10px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(3){
+    background-color: green;
+    top: 25px;
+    right: 20px;
+    height: 320px;
+    width: 255px;
+    border-radius: 10px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4){
+    background-color: yellow;
+    top: 356px;
+    right: -22px;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+
 main .hero-container .hero-content .text-content .text-content-wrapper h2{
     font-size: 3rem;
     font-weight: 800;
