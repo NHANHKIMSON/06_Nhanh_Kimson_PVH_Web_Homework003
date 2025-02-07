@@ -184,7 +184,7 @@ main .hero-container .hero-content .text-content .text-content-wrapper h2{
 }
 main .hero-container .hero-content .text-content .text-content-wrapper h2::first-letter {
     font-size: 1.8em;
-    color:#13b0df; /* Tomato color for example */
+    color:#13b0df;
     font-weight: bold;
   }
 main .hero-container .hero-content .text-content .text-content-wrapper .description{
@@ -230,3 +230,75 @@ main .hero-container .hero-content .text-content .text-content-wrapper .btn-grou
 }
 
 
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Second section */
+
+
+main section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main section .explore-section{
+    display: flex;
+    margin-top: 24px;
+    width: 80%;
+    height: 400px;
+    background-color: #cccccc;
+
+}
+main section .explore-section .wrapper-left{
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px;
+}
+main section .explore-section .wrapper-left h2{
+    font-size: 2.5rem;
+}
+main section .explore-section .wrapper-left .description{
+    margin-top: 30px;
+}
+main section .explore-section .wrapper-left .btn-explore{
+    margin-top: 24px;
+    padding: 10px 20px;
+    border: 1px solid #13b0df;
+    color: #13b0df;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main section .explore-section .wrapper-right{
+    width: 100%;
+    height: 100%;
+}
+main section .explore-section .wrapper-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+main section .explore-section .wrapper-right .box{
+    width: 180px;
+    height: 90%;
+    background-color: blue;
+    border-radius: 10px;
+}
