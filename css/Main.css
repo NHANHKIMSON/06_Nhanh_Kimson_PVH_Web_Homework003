@@ -9,6 +9,10 @@ body{
     background-color: #f9f9f9;
 }
 
+:root{
+    --primary-color: #13b0df;
+}
+
 .Navbar{
     display: flex;
     justify-content: space-between;
@@ -146,6 +150,7 @@ main .hero-container .hero-content .image-content .image-content-wrapper{
 
 main .hero-container .hero-content .image-content .image-content-wrapper .box{
     position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1){
     background-color: #f3f3f3;
@@ -210,7 +215,7 @@ main .hero-container .hero-content .image-content .image-content-wrapper .box:nt
 
 
 main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(3){
-    background-image: url("https://hips.hearstapps.com/hmg-prod/images/perfect-reflection-of-the-reine-village-on-the-royalty-free-image-1719599055.jpg?crop=0.668xw:1.00xh;0.262xw,0&resize=980:*");
+    background-image: url("https://www.shutterstock.com/image-photo/maldives-islands-ocean-tropical-beach-600nw-1938868960.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,10 +249,6 @@ main .hero-container .hero-content .image-content .image-content-wrapper .box:nt
 
 
 main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4){
-    /* background-image: url("https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/nikbcskxpgu4pcqpmipy");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: #ffff;
     top: 356px;
     right: -22px;
@@ -542,18 +543,32 @@ main .section-third{
 main .section-third .content{
     display: flex;
     margin-top: 30px;
+    padding: 0px 180px;
 }
-
 main .section-third .content .content-left{
-    width: 100%;
-    background-color: green;
-}
 
+}
+main .section-third .content .content-left .card .mark{
+    display: block;
+    background-color: var(--primary-color);
+    padding: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #fff;
+    margin: 16px 0px;
+}
+main .section-third .content .content-left .card p{
+    margin-top: 20px;
+}
 
 
 main .section-third .content .content-right{
     width: 100%;
-    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 main .section-third .content .content-right .wrapper{
     display: flex;
@@ -562,8 +577,89 @@ main .section-third .content .content-right .wrapper{
 }
 
 main .section-third .content .content-right .wrapper .card{
-    width: 450px;
+    width: 420px;
     height: 600px;
-    background-color: blue;
     border-radius: 20px;
+    background-image: url("https://kasthamandap.edu.np/storage/country/image-20230403003452.jpeg");
+    position: relative;
+}
+
+
+main .section-third .content .content-right .wrapper .card .small-card{
+    background-color: rgba(232, 232, 232, 0.842);
+    border-radius: 12px;
+    position: absolute;
+    padding: 10px;
+}
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(1){
+    left: -40px;
+    top: 50px;
+}
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(2){
+    right: -40px;
+    top: 150px;
+}
+
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(3){
+    left: -40px;
+    bottom: 60px;
+}
+
+
+
+
+
+
+
+main .section-third .content .content-right .wrapper .card .small-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+main .section-third .content .content-right .wrapper .card .small-card .left-card .profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(1) .left-card .profile{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/029/129/240/non_2x/shinchan-cute-free-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(2) .left-card .profile{
+    background-image: url("https://www.lmching.com/cdn/shop/files/crayon-shin-chan-3d-mouse-pad-classic-1pc-lmching-group-limited-1.jpg?v=1687786761&width=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(3) .left-card .profile{
+    background-image: url("https://miro.medium.com/v2/resize:fit:720/0*I32LiwMMYY16sPAB.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+main .section-third .content .content-right .wrapper .card .small-card .right-card .heart{
+    color: var(--primary-color);
+    margin-top: 5px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+footer{
+    background-color: rgb(215, 215, 215);
+    padding: 20px 0px;
+    margin-top: 30px;
+    color: #333;
+}
+footer p{
+    text-align: center;
 }
