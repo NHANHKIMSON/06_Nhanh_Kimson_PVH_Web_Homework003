@@ -9,6 +9,10 @@ body{
     background-color: #f9f9f9;
 }
 
+:root{
+    --primary-color: #13b0df;
+}
+
 .Navbar{
     display: flex;
     justify-content: space-between;
@@ -139,9 +143,214 @@ main .hero-container .hero-content .text-content{
     align-items: center;
     padding: 0px 120px;
 }
-/* main .hero-container .hero-content .text-content .text-content-wrapper {
-    background-color: rgb(215, 215, 215);
+main .hero-container .hero-content .image-content .image-content-wrapper{
+    position: relative;
+    padding: 44px 0px 44px 44px;
+}
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box{
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1){
+    background-color: #f3f3f3;
+    width: 300px;
+    height: 160px;
+    border-radius: 10px;
+    padding: 10px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1) .profile{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url("https://container-news.com/wp-content/uploads/2021/04/Picture-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1) .header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1) .discript{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1) .discript .star{
+    color: rgb(226, 226, 0);
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(2){
+    background-image: url("https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/yenjvumoqsdyqgdd2wli");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 215px;
+    height: 340px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(2) .description{
+    background-color: #edededb7;
+    padding: 10px;
+    border-radius: 12px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(2) .description .rate{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(2) .description .rate p .fa-star{
+    color: rgb(227, 227, 0);
+}
+
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(3){
+    background-image: url("https://www.shutterstock.com/image-photo/maldives-islands-ocean-tropical-beach-600nw-1938868960.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 25px;
+    right: 20px;
+    height: 320px;
+    width: 255px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(3) .description{
+    background-color: #edededb7;
+    padding: 10px;
+    border-radius: 12px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(3) .description .rate{
+    display: flex;
+    gap: 110px;
+    margin-top: 20px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(3) .description .rate p .fa-star{
+    color: rgb(227, 227, 0);
+}
+
+
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4){
+    background-color: #ffff;
+    top: 356px;
+    right: -22px;
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-left{
+    width: 110px;
+    height: 150px;
+    left: 12px;
+    border-radius: 12px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQombvU4QgdIHP-5vfbip1LVT6ZY5CBTkTZBA&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 3px solid #fff;
+    transition: all 0.3s linear;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-left:hover{
+    transform: scale(1.1);
+}
+/* ------------------------------------------------- */
+/* main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .header{
+    position: absolute;
 } */
+
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right{
+    padding: 0px 20px;
+
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 3px solid #fff;
+    transition: all 0.3s linear;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(1){
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    border-radius: 12px;
+    background-image: url("https://i.pinimg.com/236x/b7/03/4b/b7034b745a22d22b0810dfb80cdcb846.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(2){
+    left: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCSQt6-tbhCqDOUSqkmF7_ACLSiKVVhpdp8g&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(3){
+    left: 95px;
+    background-image: url("https://c.stocksy.com/a/cGAN00/z9/5521014.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(1):hover{
+    transform:scale(1.1);
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(2):hover{
+    transform:scale(1.1);
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(3):hover{
+    transform:scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 main .hero-container .hero-content .text-content .text-content-wrapper h2{
     font-size: 3rem;
     font-weight: 800;
@@ -149,7 +358,7 @@ main .hero-container .hero-content .text-content .text-content-wrapper h2{
 }
 main .hero-container .hero-content .text-content .text-content-wrapper h2::first-letter {
     font-size: 1.8em;
-    color:#13b0df; /* Tomato color for example */
+    color:#13b0df;
     font-weight: bold;
   }
 main .hero-container .hero-content .text-content .text-content-wrapper .description{
@@ -161,6 +370,11 @@ main .hero-container .hero-content .text-content .text-content-wrapper .descript
 main .hero-container .hero-content .text-content .text-content-wrapper .btn-group{
     margin-top: 20px;
 }
+
+
+
+
+
 main .hero-container .hero-content .text-content .text-content-wrapper .btn-group .btn-explore{
     margin-right: 30px;
     text-decoration: none;
@@ -190,8 +404,262 @@ main .hero-container .hero-content .text-content .text-content-wrapper .btn-grou
     padding: 12px 16px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
+
+}
+main .hero-container .hero-content .text-content .text-content-wrapper .btn-group .btn-play:hover{
+    border: 1px solid #08536a;
+
+}
+/* ------------------------------------------------------------------------------------------- */
+
+/* Second section */
+
+
+main .second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main section .explore-section{
+    display: flex;
+    margin-top: 24px;
+    width: 80%;
+    height: 400px;
+
+}
+main section .explore-section .wrapper-left{
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px;
+}
+main section .explore-section .wrapper-left h2{
+    font-size: 2.5rem;
+}
+main section .explore-section .wrapper-left .description{
+    margin-top: 30px;
+}
+main section .explore-section .wrapper-left .btn-explore{
+    margin-top: 24px;
+    padding: 10px 20px;
+    border: 1px solid #13b0df;
+    color: #13b0df;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+main section .explore-section .wrapper-right{
+    width: 100%;
+    height: 100%;
+}
+main section .explore-section .wrapper-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+main section .explore-section .wrapper-right .box{
+    width: 180px;
+    height: 80%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 6px solid #fff;
+    transition: all 0.3s linear;
+}
+
+main section .explore-section .wrapper-right .box:nth-child(1){
+    left: 0px;
+    top: 10px;
+    position: absolute;
+    border-radius: 10px;
+    background-image: url("https://i.redd.it/68muyj5zid451.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main section .explore-section .wrapper-right .box:nth-child(1):hover{
+    transform:scale(1.1);
+}
+main section .explore-section .wrapper-right .box:nth-child(2):hover{
+    transform:scale(1.1);
+}
+main section .explore-section .wrapper-right .box:nth-child(3):hover{
+    transform:scale(1.1);
+}
+
+
+main section .explore-section .wrapper-right .box:nth-child(2){
+    left: 190px;
+    top: 80px;
+    position: absolute;
+    border-radius: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCf2xN7qP9mPD2Ow_lt-NaipjU_2Zw6x07Sw&s");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main section .explore-section .wrapper-right .box:nth-child(3){
+    left: 390px;
+    top: 50px;
+    position: absolute;
+    border-radius: 10px;
+    background-image: url("https://i.pinimg.com/736x/e7/72/9f/e7729f2d5d3f75499d870d5e942bebc0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* third section  */
+
+main .section-third .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .section-third .header h3{
+    font-size: 2rem;
+}
+main .section-third .header p{
+    margin-top: 16px;
+    text-align: center;
+}
+
+
+
+main .section-third{
+    margin-top: 30px;
+}
+main .section-third .content{
+    display: flex;
+    margin-top: 30px;
+    padding: 0px 180px;
+}
+main .section-third .content .content-left{
+
+}
+main .section-third .content .content-left .card .mark{
+    display: block;
+    background-color: var(--primary-color);
+    padding: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #fff;
+    margin: 16px 0px;
+}
+main .section-third .content .content-left .card p{
+    margin-top: 20px;
+}
+
+
+main .section-third .content .content-right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+main .section-third .content .content-right .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section-third .content .content-right .wrapper .card{
+    width: 420px;
+    height: 600px;
+    border-radius: 20px;
+    background-image: url("https://kasthamandap.edu.np/storage/country/image-20230403003452.jpeg");
+    position: relative;
+}
+
+
+main .section-third .content .content-right .wrapper .card .small-card{
+    background-color: rgba(232, 232, 232, 0.842);
+    border-radius: 12px;
+    position: absolute;
+    padding: 10px;
+}
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(1){
+    left: -40px;
+    top: 50px;
+}
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(2){
+    right: -40px;
+    top: 150px;
+}
+
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(3){
+    left: -40px;
+    bottom: 60px;
+}
+
+
+
+
+
+
+
+main .section-third .content .content-right .wrapper .card .small-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+main .section-third .content .content-right .wrapper .card .small-card .left-card .profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(1) .left-card .profile{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/029/129/240/non_2x/shinchan-cute-free-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(2) .left-card .profile{
+    background-image: url("https://www.lmching.com/cdn/shop/files/crayon-shin-chan-3d-mouse-pad-classic-1pc-lmching-group-limited-1.jpg?v=1687786761&width=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main .section-third .content .content-right .wrapper .card .small-card:nth-child(3) .left-card .profile{
+    background-image: url("https://miro.medium.com/v2/resize:fit:720/0*I32LiwMMYY16sPAB.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 
+
+main .section-third .content .content-right .wrapper .card .small-card .right-card .heart{
+    color: var(--primary-color);
+    margin-top: 5px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+footer{
+    background-color: rgb(215, 215, 215);
+    padding: 20px 0px;
+    margin-top: 30px;
+    color: #333;
+}
+footer p{
+    text-align: center;
+}
