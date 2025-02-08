@@ -682,16 +682,15 @@ main .section-third .content .content-right .wrapper .card .small-card .right-ca
     margin-top: 5px;
 }
 
-
 /* --------------------------------------------------------------------------------------------------------- */
 
 .up{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    font-size: 30px;
+    font-size: 20px;
     color: var(--primary-color);
-    padding: 10px 16px;
+    padding: 8px 14px;
     background-color: #fff;
     box-shadow: rgba(4, 4, 4, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     border-radius: 50%;
