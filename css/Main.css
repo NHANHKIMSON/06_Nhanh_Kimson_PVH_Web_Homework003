@@ -148,35 +148,208 @@ main .hero-container .hero-content .image-content .image-content-wrapper .box{
     position: absolute;
 }
 main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1){
-    background-color: red;
+    background-color: #f3f3f3;
     width: 300px;
     height: 160px;
     border-radius: 10px;
+    padding: 10px;
 }
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1) .profile{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url("https://container-news.com/wp-content/uploads/2021/04/Picture-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1) .header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1) .discript{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(1) .discript .star{
+    color: rgb(226, 226, 0);
+}
+
+/* --------------------------------------------------------------------------------------------------- */
 main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(2){
-    background-color: blue;
+    background-image: url("https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/yenjvumoqsdyqgdd2wli");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     top: 215px;
     height: 340px;
     width: 250px;
     border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(2) .description{
+    background-color: #edededb7;
+    padding: 10px;
+    border-radius: 12px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(2) .description .rate{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(2) .description .rate p .fa-star{
+    color: rgb(227, 227, 0);
+}
+
+
 main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(3){
-    background-color: green;
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/perfect-reflection-of-the-reine-village-on-the-royalty-free-image-1719599055.jpg?crop=0.668xw:1.00xh;0.262xw,0&resize=980:*");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     top: 25px;
     right: 20px;
     height: 320px;
     width: 255px;
     border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
+
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(3) .description{
+    background-color: #edededb7;
+    padding: 10px;
+    border-radius: 12px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(3) .description .rate{
+    display: flex;
+    gap: 110px;
+    margin-top: 20px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(3) .description .rate p .fa-star{
+    color: rgb(227, 227, 0);
+}
+
+
+
 main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4){
-    background-color: yellow;
+    /* background-image: url("https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/nikbcskxpgu4pcqpmipy");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #ffff;
     top: 356px;
     right: -22px;
     width: 300px;
-    height: 150px;
+    height: 170px;
     border-radius: 10px;
 }
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
 
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-left{
+    width: 110px;
+    height: 150px;
+    left: 12px;
+    border-radius: 12px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQombvU4QgdIHP-5vfbip1LVT6ZY5CBTkTZBA&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 3px solid #fff;
+    transition: all 0.3s linear;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-left:hover{
+    transform: scale(1.1);
+}
+/* ------------------------------------------------- */
+/* main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .header{
+    position: absolute;
+} */
+
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right{
+    padding: 0px 20px;
+
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 3px solid #fff;
+    transition: all 0.3s linear;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(1){
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    border-radius: 12px;
+    background-image: url("https://i.pinimg.com/236x/b7/03/4b/b7034b745a22d22b0810dfb80cdcb846.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(2){
+    left: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCSQt6-tbhCqDOUSqkmF7_ACLSiKVVhpdp8g&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(3){
+    left: 95px;
+    background-image: url("https://c.stocksy.com/a/cGAN00/z9/5521014.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(1):hover{
+    transform:scale(1.1);
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(2):hover{
+    transform:scale(1.1);
+}
+main .hero-container .hero-content .image-content .image-content-wrapper .box:nth-child(4) .card-group .card-right .wrapper .card:nth-child(3):hover{
+    transform:scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 main .hero-container .hero-content .text-content .text-content-wrapper h2{
     font-size: 3rem;
     font-weight: 800;
@@ -196,6 +369,11 @@ main .hero-container .hero-content .text-content .text-content-wrapper .descript
 main .hero-container .hero-content .text-content .text-content-wrapper .btn-group{
     margin-top: 20px;
 }
+
+
+
+
+
 main .hero-container .hero-content .text-content .text-content-wrapper .btn-group .btn-explore{
     margin-right: 30px;
     text-decoration: none;
@@ -225,20 +403,19 @@ main .hero-container .hero-content .text-content .text-content-wrapper .btn-grou
     padding: 12px 16px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 
 }
+main .hero-container .hero-content .text-content .text-content-wrapper .btn-group .btn-play:hover{
+    border: 1px solid #08536a;
 
-
-
-
-
+}
 /* ------------------------------------------------------------------------------------------- */
 
 /* Second section */
 
 
-main section{
+main .second-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,7 +427,6 @@ main section .explore-section{
     margin-top: 24px;
     width: 80%;
     height: 400px;
-    background-color: #cccccc;
 
 }
 main section .explore-section .wrapper-left{
@@ -271,14 +447,7 @@ main section .explore-section .wrapper-left .btn-explore{
     color: #13b0df;
     background-color: transparent;
     border-radius: 10px;
-
 }
-
-
-
-
-
-
 
 
 
@@ -300,27 +469,101 @@ main section .explore-section .wrapper-right {
 main section .explore-section .wrapper-right .box{
     width: 180px;
     height: 80%;
-    background-color: blue;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 6px solid #fff;
+    transition: all 0.3s linear;
 }
+
 main section .explore-section .wrapper-right .box:nth-child(1){
     left: 0px;
     top: 10px;
     position: absolute;
-    background-color: blue;
     border-radius: 10px;
+    background-image: url("https://i.redd.it/68muyj5zid451.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+main section .explore-section .wrapper-right .box:nth-child(1):hover{
+    transform:scale(1.1);
+}
+main section .explore-section .wrapper-right .box:nth-child(2):hover{
+    transform:scale(1.1);
+}
+main section .explore-section .wrapper-right .box:nth-child(3):hover{
+    transform:scale(1.1);
+}
+
+
 main section .explore-section .wrapper-right .box:nth-child(2){
     left: 190px;
     top: 80px;
     position: absolute;
-    background-color: rgb(157, 79, 49);
     border-radius: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCf2xN7qP9mPD2Ow_lt-NaipjU_2Zw6x07Sw&s");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 main section .explore-section .wrapper-right .box:nth-child(3){
     left: 390px;
     top: 50px;
     position: absolute;
-    background-color: rgb(157, 79, 49);
     border-radius: 10px;
+    background-image: url("https://i.pinimg.com/736x/e7/72/9f/e7729f2d5d3f75499d870d5e942bebc0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* third section  */
+
+main .section-third .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .section-third .header h3{
+    font-size: 2rem;
+}
+main .section-third .header p{
+    margin-top: 16px;
+    text-align: center;
+}
+
+
+
+main .section-third{
+    margin-top: 30px;
+}
+main .section-third .content{
+    display: flex;
+    margin-top: 30px;
+}
+
+main .section-third .content .content-left{
+    width: 100%;
+    background-color: green;
+}
+
+
+
+main .section-third .content .content-right{
+    width: 100%;
+    background-color: red;
+}
+main .section-third .content .content-right .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section-third .content .content-right .wrapper .card{
+    width: 450px;
+    height: 600px;
+    background-color: blue;
+    border-radius: 20px;
 }
